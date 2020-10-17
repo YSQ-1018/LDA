@@ -72,7 +72,6 @@ def mean_vector(train_iris):
     mean = np.mean(train_iris,axis = 0)
     return mean
 
-#原来只用了训练集中的样本计算均值，现在使用全体数据计算均值
 mean1 = mean_vector(new_iris1)
 mean2 = mean_vector(new_iris2)
 mean3 = mean_vector(new_iris3)
@@ -87,7 +86,6 @@ print("mean vector3:",mean3)
 # In[13]:
 
 
-#原来此处我也只计算了训练集数据的Sw，现在传入了整体数据
 #计算类内离散度矩阵
 def with_in_scatter_matrix(mean1, train_iris1):
     """
