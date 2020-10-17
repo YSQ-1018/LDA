@@ -7,7 +7,7 @@
 import pandas as pd
 import numpy as np
 
-path = '/home/ysq/桌面/Sonar/sonar.all-data'
+path = 'xxxxxxx'#将xxxxxxx替换为数据地址
 df = pd.read_csv(path,header = None)
 
 #第一类数据集 共97个样本 60维（不含标签）
