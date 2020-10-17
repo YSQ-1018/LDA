@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder #将class(三种花的名字)编�
 import numpy as np
 
 #数据读入与预处理
-iris_data_path = '/home/ysq/桌面/Iris/iris.data'
+iris_data_path = 'xxxxxx'#将xxxxx更换为存放数据的地址
 
 df = pd.read_csv(iris_data_path,names = ['sepal length','sepal width','petal length','petal width','class'])
 
